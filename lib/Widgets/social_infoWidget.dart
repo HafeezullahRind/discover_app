@@ -26,13 +26,13 @@ class socialInfoWidget extends StatelessWidget {
         children: [
           Row(
             children: [
-              Icon(
+              const Icon(
                 Icons.favorite,
                 color: Colors.red,
               ),
               Text(
                 articles[index].likes.toString(),
-                style: TextStyle(
+                style: const TextStyle(
                   color: Colors.red,
                 ),
               )
@@ -40,13 +40,13 @@ class socialInfoWidget extends StatelessWidget {
           ),
           Row(
             children: [
-              Icon(Icons.comment),
+              const Icon(Icons.comment),
               Text(articles[index].comments.toString())
             ],
           ),
           Row(
             children: [
-              Icon(Icons.share_sharp),
+              const Icon(Icons.share_sharp),
               Text(articles[index].shares.toString())
             ],
           )

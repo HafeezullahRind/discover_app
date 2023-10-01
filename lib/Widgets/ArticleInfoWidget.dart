@@ -124,17 +124,17 @@ class ArticleInfoWidget extends StatelessWidget {
                           articles[index].rating - _current_index;
                       Icon starIcon;
                       if (filAmount >= 1) {
-                        starIcon = Icon(
+                        starIcon = const Icon(
                           Icons.star,
                           color: Colors.amberAccent,
                         );
                       } else if (filAmount >= 0.5) {
-                        starIcon = Icon(
+                        starIcon = const Icon(
                           Icons.star_half,
                           color: Colors.amberAccent,
                         );
                       } else {
-                        starIcon = Icon(
+                        starIcon = const Icon(
                           Icons.star_border,
                           color: Colors.amberAccent,
                         );
