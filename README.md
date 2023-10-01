@@ -1,16 +1,19 @@
-# discover_app
+# Discover App
 
-A new Flutter project.
+Discover App is a Flutter application that showcases articles with various topics and locations. Users can explore articles, view author information, and interact with social features like liking and commenting on articles.
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
+[Include screenshots or gifs of your app here]
+![DiscoverApp](https://github.com/HafeezullahRind/discover_app/assets/121288207/591315eb-8df5-493a-b47c-a83752bec0c0)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Display a list of articles with images, titles, authors, and locations.
+- Users can like and comment on articles.
+- Social sharing functionality for articles.
+- Dynamic star rating for articles.
+- Responsive design for various device sizes.
+
+
